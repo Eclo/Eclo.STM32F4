@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>Eclo.Hardware</FeatureName>
+    <Guid>{6fb4b13a-40c5-4de7-830f-e1f55ee78bc2}</Guid>
+    <Description>Eclo implementation of several drivers and utils for STM32F4xxx processors</Description>
+    <Groups />
+    <ECLO_HARDWARE_FEATUREPROJ>True</ECLO_HARDWARE_FEATUREPROJ>
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="Eclo_Hardware.$(LIB_EXT)" />
+    <InteropFeature Include="Eclo_Hardware" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\$(ENDIANNESS)\Eclo.Hardware.pe" />
+    <RequiredProjects Include="E:\dev\netmf\client_v4_3_SDKR2\Eclo\Eclo.Hardware\Managed\Eclo.Hardware\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>

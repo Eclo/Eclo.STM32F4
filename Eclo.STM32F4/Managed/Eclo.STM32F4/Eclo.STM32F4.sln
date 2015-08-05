@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclo.STM32F4", "Eclo.STM32F4.csproj", "{DEE49FE0-FB50-44BC-B41A-7C780D7AAB8F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://eclo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Eclo.STM32F4.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE49FE0-FB50-44BC-B41A-7C780D7AAB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE49FE0-FB50-44BC-B41A-7C780D7AAB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE49FE0-FB50-44BC-B41A-7C780D7AAB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE49FE0-FB50-44BC-B41A-7C780D7AAB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

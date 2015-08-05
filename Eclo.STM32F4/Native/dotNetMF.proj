@@ -1,0 +1,25 @@
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Directory>DeviceCode\Targets\Native\Interop\Eclo_STM32F4</Directory>
+    <AssemblyName>Eclo_STM32F4</AssemblyName>
+  </PropertyGroup>
+  <Import Project="$(SPOCLIENT)\tools\targets\Microsoft.SPOT.System.Settings" />
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+<ItemGroup>
+<HFile Include="Eclo_STM32F4.h" />
+<Compile Include="Eclo_STM32F4.cpp" />
+<Compile Include="Eclo_STM32F4_Eclo_STM32F4_RTC_mshl.cpp" />
+<HFile Include="Eclo_STM32F4_Eclo_STM32F4_RTC.h" />
+<Compile Include="Eclo_STM32F4_Eclo_STM32F4_RTC.cpp" />
+<Compile Include="Eclo_STM32F4_Eclo_STM32F4_System_mshl.cpp" />
+<HFile Include="Eclo_STM32F4_Eclo_STM32F4_System.h" />
+<Compile Include="Eclo_STM32F4_Eclo_STM32F4_System.cpp" />
+<Compile Include="Eclo_STM32F4_Eclo_STM32F4_BackupRegisters_mshl.cpp" />
+<HFile Include="Eclo_STM32F4_Eclo_STM32F4_BackupRegisters.h" />
+<Compile Include="Eclo_STM32F4_Eclo_STM32F4_BackupRegisters.cpp" />
+<Compile Include="$(SPOCLIENT)\Eclo\Target\STM32F4\HelperFunctions.cpp" />
+</ItemGroup>
+<Import Project="$(SPOCLIENT)\tools\targets\Microsoft.SPOT.System.Targets" />
+</Project>
