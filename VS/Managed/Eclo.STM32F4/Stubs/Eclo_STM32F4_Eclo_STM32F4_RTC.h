@@ -22,9 +22,6 @@ namespace Eclo
         {
             // Helper Functions to access fields of managed object
             // Declaration of stubs. These functions are implemented by Interop code developers
-            static void Native_RTC_Init( UINT8 param0, INT8 param1, HRESULT &hr );
-            static void Native_RTC_GetDateTime( UINT8 * param0, UINT8 * param1, UINT8 * param2, UINT8 * param3, UINT8 * param4, UINT8 * param5, HRESULT &hr );
-            static void Native_RTC_SetDateTime( UINT8 param0, UINT8 param1, UINT8 param2, UINT8 param3, UINT8 param4, UINT8 param5, UINT8 param6, HRESULT &hr );
             static void Native_RTC_SetAlarm( UINT8 param0, UINT8 param1, UINT8 param2, UINT8 param3, UINT8 param4, UINT8 param5, UINT8 param6, HRESULT &hr );
         };
     }

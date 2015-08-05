@@ -2,14 +2,14 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <FeatureName>Eclo.STM32F4</FeatureName>
-    <Guid>{1e21dc92-8f7f-4304-b593-ea54de748978}</Guid>
+    <Guid>{8a31d4d2-e301-4f05-954f-e63cb62fc15c}</Guid>
     <Description>Eclo implementation of several drivers and utils for STM32F4xxx processors</Description>
     <Groups />
-    <ECLO_HARDWARE_FEATUREPROJ>True</ECLO_HARDWARE_FEATUREPROJ>
+    <ECLO_STM32F4_FEATUREPROJ>True</ECLO_STM32F4_FEATUREPROJ>
   </PropertyGroup>
   <ItemGroup>
     <DriverLibs Include="Eclo_STM32F4.$(LIB_EXT)" />
     <InteropFeature Include="Eclo_STM32F4" />
-    <RequiredProjects Include="$(SPOCLIENT)\Eclo\Eclo.STM32F4\Native\dotnetmf.proj" />
+    <RequiredProjects Include="$(SPOCLIENT)\Eclo\VS\Managed\Eclo.STM32F4\Stubs\dotnetmf.proj" />
   </ItemGroup>
 </Project>

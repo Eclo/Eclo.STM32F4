@@ -18,12 +18,6 @@ static const CLR_RT_MethodHandler method_lookup[] =
     Library_Eclo_STM32F4_Eclo_STM32F4_BackupRegisters::Native_BackupRegister_WriteRegister___STATIC__VOID__U1__I4,
     Library_Eclo_STM32F4_Eclo_STM32F4_BackupRegisters::Native_BackupRegister_ReadRegister___STATIC__VOID__U1__BYREF_I4,
     NULL,
-    NULL,
-    NULL,
-    NULL,
-    Library_Eclo_STM32F4_Eclo_STM32F4_RTC::Native_RTC_Init___STATIC__VOID__U1__BOOLEAN,
-    Library_Eclo_STM32F4_Eclo_STM32F4_RTC::Native_RTC_GetDateTime___STATIC__VOID__BYREF_U1__BYREF_U1__BYREF_U1__BYREF_U1__BYREF_U1__BYREF_U1,
-    Library_Eclo_STM32F4_Eclo_STM32F4_RTC::Native_RTC_SetDateTime___STATIC__VOID__U1__U1__U1__U1__U1__U1__U1,
     Library_Eclo_STM32F4_Eclo_STM32F4_RTC::Native_RTC_SetAlarm___STATIC__VOID__U1__U1__U1__U1__U1__U1__U1,
     NULL,
     Library_Eclo_STM32F4_Eclo_STM32F4_System::NativeGetHardwareSerial___STATIC__VOID__SZARRAY_U1,
@@ -33,7 +27,7 @@ static const CLR_RT_MethodHandler method_lookup[] =
 const CLR_RT_NativeAssemblyData g_CLR_AssemblyNative_Eclo_STM32F4 =
 {
     "Eclo.STM32F4", 
-    0x2EE580DC,
+    0xC5E67D48,
     method_lookup
 };
 
